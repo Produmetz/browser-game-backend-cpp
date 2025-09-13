@@ -1,0 +1,79 @@
+# Игнорирование артефактов сборки и временных файлов
+build/
+out/
+cmake-build-*/
+bin/
+obj/
+*.slo
+*.lo
+*.o
+*.a
+*.la
+*.lai
+*.so
+*.so.*
+*.dll
+*.dylib
+
+# Игнорирование файлов проектов и IDE
+.vs/
+.idea/
+*.vcxproj
+*.vcxproj.filters
+*.sln
+*.user
+*.userosscache
+*.sdf
+*.opensdf
+*.suo
+*.cmake
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+CMakeLists.txt.user
+*.autosave
+
+# Игнорирование системных и временных файлов
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+
+# Игнорирование файлов базы данных (если используются локальные БД для разработки)
+*.db
+*.sqlite
+*.sqlite3
+
+# Игнорирование статических библиотек и исполняемых файлов
+*.lib
+*.exp
+*.exe
+
+# Игнорирование документации и отчетов
+docs/html/
+docs/latex/
+*.dox
+*.tag
+
+# Игнорирование файлов упаковки и дистрибуции
+*.deb
+*.rpm
+*.tar.gz
+*.zip
+
+# Игнорирование файлов покрытия кода
+*.gcno
+*.gcda
+*.lcov
+
+# Игнорирование файлов профилирования
+*.profdata
+
+# Игнорирование файлов кэша Conan (опционально)
+.conan/
